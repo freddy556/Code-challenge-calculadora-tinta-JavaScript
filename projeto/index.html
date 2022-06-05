@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="scripts/script.js" defer></script>
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <img src="assets/img/background/color.jpg">
+    <form action="#" class="form" name="calculator">
+        <h3 class="text-center">Calculadora de Tinta</h3>
+        <!--Progress bar-->
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step progress-step-active" data-title="Início"></div>
+            <div class="progress-step" data-title="Parede 1"></div>
+            <div class="progress-step" data-title="Parede 2"></div>
+            <div class="progress-step" data-title="Parede 3"></div>
+            <div class="progress-step" data-title="Parede 4"></div>
+            <div class="progress-step" data-title="Resultado"></div>
+        </div>
+
+        <!--Steps-->
+        <div class="form-step form-step-active">
+            <h3>Bem vindo a Calculadora!<br> Clique no botão abaixo para começar!</h3>
+            <div class="">
+                <a href="#" class="btn btn-start width-50 ml-auto">Iniciar</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="altura">Altura</label>
+                <input type="number" name="altura1" id="altura1" placeholder="Valores em metros." />
+            </div>
+            <div class="input-group">
+                <label for="largura">Largura</label>
+                <input type="number" name="largura1" id="largura1" placeholder="Valores em metros." />
+            </div>
+            <h3 class="text-center">Portas e janelas</h3>
+            <div class="input-group">
+                <label for="qtdJanela">Quantidade de janelas</label>
+                <input type="number" name="qtdJanela1" id="qtdJanela1" placeholder="Caso não possua, digite 0." />
+            </div>
+            <div class="input-group">
+                <label for="qtdPorta">Quantidade de portas</label>
+                <input type="number" name="qtdPorta1" id="qtdPorta1" placeholder="Caso não possua, digite 0." />
+
+            </div>
+            <p id="resultado"></p>
+            <div class="">
+                <a href="#" id="btn-one" class="btn btn-next width-50 ml-auto">Avançar</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="altura">Altura</label>
+                <input type="number" name="altura1" id="altura2" placeholder="Valores em metros." />
+            </div>
+            <div class="input-group">
+                <label for="largura">Largura</label>
+                <input type="number" name="largura1" id="largura2" placeholder="Valores em metros." />
+            </div>
+            <h3 class="text-center">Portas e janelas</h3>
+            <div class="input-group">
+                <label for="qtdJanela">Quantidade de janelas</label>
+                <input type="number" name="qtdJanela1" id="qtdJanela2" placeholder="Caso não possua, digite 0." />
+            </div>
+            <div class="input-group">
+                <label for="qtdPorta">Quantidade de portas</label>
+                <input type="number" name="qtdPorta1" id="qtdPorta2" placeholder="Caso não possua, digite 0." />
+            </div>
+
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Voltar</a>
+                <a href="#" id="btn-two" class="btn btn-next">Avançar</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="altura">Altura</label>
+                <input type="number" name="altura1" id="altura3" placeholder="Valores em metros." />
+            </div>
+            <div class="input-group">
+                <label for="largura">Largura</label>
+                <input type="number" name="largura1" id="largura3" placeholder="Valores em metros." />
+            </div>
+            <h3 class="text-center">Portas e janelas</h3>
+            <div class="input-group">
+                <label for="qtdJanela">Quantidade de janelas</label>
+                <input type="number" name="qtdJanela1" id="qtdJanela3" placeholder="Caso não possua, digite 0." />
+            </div>
+            <div class="input-group">
+                <label for="qtdPorta">Quantidade de portas</label>
+                <input type="number" name="qtdPorta1" id="qtdPorta3" placeholder="Caso não possua, digite 0." />
+            </div>
+
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Voltar</a>
+                <a href="#" id="btn-three" class="btn btn-next">Avançar</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="altura">Altura</label>
+                <input type="number" name="altura1" id="altura4" placeholder="Valores em metros." />
+            </div>
+            <div class="input-group">
+                <label for="largura">Largura</label>
+                <input type="number" name="largura1" id="largura4" placeholder="Valores em metros." />
+            </div>
+            <h3 class="text-center">Portas e janelas</h3>
+            <div class="input-group">
+                <label for="qtdJanela">Quantidade de janelas</label>
+                <input type="number" name="qtdJanela1" id="qtdJanela4" placeholder="Caso não possua, digite 0." />
+            </div>
+            <div class="input-group">
+                <label for="qtdPorta">Quantidade de portas</label>
+                <input type="number" name="qtdPorta1" id="qtdPorta4" placeholder="Caso não possua, digite 0." />
+            </div>
+
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Voltar</a>
+                <a href="#" id="btn-four" class="btn btn-next">Calcular</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <div id="resultadoMetros"></div>
+            </div>
+            <div class="input-group">
+                <div id="resultadoTinta"></div>
+            </div>
+            <div class="input-group">
+                <div id="resultadoLata"></div>
+            </div>
+            <div class="btns-group">
+                <a href="index.html" class="btn">Nova Consulta</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
